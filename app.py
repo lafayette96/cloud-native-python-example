@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #return render_template("index.html")
-    return "Hello from OpenShift 2"
+    return "Hello from OpenShift 3"
  
 
 @app.route("/healthz")
